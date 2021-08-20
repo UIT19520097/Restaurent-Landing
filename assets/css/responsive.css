@@ -40,7 +40,7 @@
         line-height:54px;
         width: 100%;
         display:block;
-        padding: 0 12px;
+        padding: 0 5px;
         --webkit-tap-highlight-color:transparent;
         --webkit-user-select: none;
     }
@@ -53,8 +53,8 @@
     {
         font-size: 20px;
         letter-spacing: 4px;
-        bottom: 17px;
-        left: 15px;
+        bottom: 16px;
+        left: 22px;
     }
     .menu__food-item
     {
@@ -101,6 +101,11 @@
     .menu__food-item
     {
         padding-top: 25px
+    }
+    .header__nav-item-link,
+    .header__nav-name-link
+    {
+        font-size: 16px;
     }
 
 }
