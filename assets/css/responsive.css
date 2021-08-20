@@ -41,6 +41,8 @@
         width: 100%;
         display:block;
         padding: 0 12px;
+        --webkit-tap-highlight-color:transparent;
+        --webkit-user-select: none;
     }
     .header__nav-item-link:hover,
     .header__nav-name-link:hover
