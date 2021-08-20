@@ -1,0 +1,255 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-grey {
+    color: #757575;
+}
+.text-center {
+    text-align: center;
+}
+.mt-200
+{
+    margin-top:200px
+}
+.col-half {
+    width: 50%;
+}
+html
+{
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.5;
+    scroll-behavior: smooth;
+}
+/* Header */
+.header__nav
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+    background-color:#fff;
+    height:54px;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 0 16px;
+    overflow: hidden;
+}
+/* Nav Mobile */
+.header__menu-btn
+{
+    display:none;
+    color: #000;
+    font-size: 23px;
+    padding: 16px;
+    position: absolute;
+    right:0;
+    top: 27;
+    transform: translateY(-100%);
+}
+
+/* End Header Nav Mobile */
+.header__nav-item-link,
+.header__nav-name-link
+{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    letter-spacing: 4px;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.header__nav-item-link:hover,
+.header__nav-name-link:hover
+{
+    background-color:#ccc;
+}
+.header__nav-right
+{
+    display: flex; 
+    list-style: none;
+}
+.header__slider
+{
+    max-width:1600px;
+    max-height:800px;
+    position: relative;
+    margin:54px auto 0;
+}
+.header__slider-img
+{
+    max-width: 100%;
+    height: auto;
+}
+.header__slider-img-title
+{
+    position: absolute;
+    font-size: 34px;
+    letter-spacing: 5px;
+    bottom: 30px;
+    left: 24px;
+    font-weight: 400;
+    color: #595a5e;
+    text-shadow:  0 0 1 #000;
+}
+/* Content  */
+.grid
+{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.content
+{
+    background-color: #fff;
+}
+.content_about
+{
+    display: flex;
+    padding: 64px 0;
+    flex-wrap:wrap;
+}
+.content__about-image
+{
+    padding:12px 24px;
+}
+.content__about-image img
+{
+    max-width: 100%;
+    border-radius: 4px;
+    opacity: 0.75;
+}
+.content__about-info
+{
+    padding: 12px 24px;
+}
+.content__heading
+{
+    font-size:36px;
+    letter-spacing: 5px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.content__about-title
+{
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 30px 0 20px;
+}
+.content__about-desc
+{
+    font-size: 16.5px;
+    line-height: 1.6;
+}
+.content__about-desc p
+{
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding:3px 4px;
+}
+.content__seperated
+{
+    border-top: 1px solid #f0f0f0 ;
+    margin: 20px 0;
+}
+/* Menu */
+.content__menu
+{
+    padding: 64px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content__menu-desc
+{
+    padding: 12px 24px;
+}
+.menu__food-item
+{
+    padding-top: 35px ;
+}
+.menu__food-item-name
+{
+    font-size: 20px;
+    letter-spacing:5px;
+}
+.menu__food-item-desc
+{
+    margin: 15px 0;
+    font-size: 15px;
+    color: #757575
+}
+/* Contact */
+.content__contact
+{
+    padding: 64px 16px;
+}
+.contact__info
+{
+    margin: 30px 0;
+}
+.contact__info-desc,
+.contact__info-phone
+{
+    font-size:15px;
+    margin-bottom: 15px;
+}
+.contact__info-address
+{
+    color: #607d8b;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;;
+}
+.contact__info-fill
+{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding: 16px 8px;
+    display:block;
+    margin: 10px 0;
+}
+.contact__form-btn
+{
+    text-decoration: none;
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 10px 15px;
+    display:inline-block;
+    margin: 20px 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-size: 15px
+}
+.contact__form-btn:hover
+{
+    background-color: #ccc;
+}
+
+/* Footer */
+.footer
+{
+    background-color:#f1f1f1;
+    height:54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text
+{
+    font-size: 16px
+}
+.footer-link
+{
+    color: #000;
+    padding: 20px 0;
+}
+.footer-link:hover
+{
+    color:#4caf50;
+}
