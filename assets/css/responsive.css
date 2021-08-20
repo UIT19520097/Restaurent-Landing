@@ -47,6 +47,13 @@
     {
         background-color: unset;
     }
+    .header__slider-img-title
+    {
+        font-size: 20px;
+        letter-spacing: 4px;
+        bottom: 17px;
+        left: 15px;
+    }
     .menu__food-item
     {
         padding-top: 20px;
